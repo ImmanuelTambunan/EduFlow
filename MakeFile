@@ -1,0 +1,8 @@
+compile:
+	javac -d bin EduFlow.java
+
+run:
+	java -cp bin EduFlow
+
+clean:
+	rm -rf bin/*.class
